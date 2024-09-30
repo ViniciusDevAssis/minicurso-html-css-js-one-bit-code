@@ -71,3 +71,62 @@ h2 {
     width: 100%;
     z-index: -10;
 }
+
+#clinic {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+#clinic li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+#drugstore {
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#drugstore img {
+    margin: 64px auto;
+}
+
+#drugstore .paragraph {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#questions {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.question {
+    position: relative;
+}
+
+.question h3 {
+    border: 2px solid #ff725e;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.question img {
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.question .paragraph {
+    border-right: 1px solid #ff725e;
+    border-bottom: 1px solid #ff725e;
+    border-left: 1px solid #ff725e;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
